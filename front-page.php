@@ -71,9 +71,9 @@ get_header();
                     // Get Posts
                     $instance = [
                         'layout' => '1-3',
-                        'elements_preset' => 's0', 
+                        'elements_preset' => 's0-Lite', 
                         'image_link' => true,
-                        'excerpt_letter_count' => 250
+                        'excerpt_letter_count' => 150
                     ];
 
                     // Get Posts

@@ -92,6 +92,19 @@ class Newsx_Blog_Posts_Presets {
     public function elements_preset_default() {
         $this->instance['_el_locations'] = [
             'below' => [
+                'title',
+                'excerpt',
+                'categories',
+                'meta',
+                //'read-more'
+            ]
+        ];
+    }
+
+    /* Original code: need to understand how it's used premium code better
+    public function elements_preset_default() {
+        $this->instance['_el_locations'] = [
+            'below' => [
                 'categories',
                 'title',
                 'excerpt',
@@ -99,5 +112,5 @@ class Newsx_Blog_Posts_Presets {
                 'read-more'
             ]
         ];
-    }
+    }*/
 }

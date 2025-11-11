@@ -60,3 +60,5 @@ require_once NEWSX_INCLUDES_DIR .'/core/after-theme-setup.php';
 
 // AJAX Actions
 require_once NEWSX_INCLUDES_DIR .'/actions/class-newsx-ajax-public.php';
+
+require_once __DIR__ . '/Utils.php';

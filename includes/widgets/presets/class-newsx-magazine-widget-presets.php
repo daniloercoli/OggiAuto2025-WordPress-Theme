@@ -29,6 +29,10 @@ class Newsx_Magazine_Widget_Presets {
             case 's2':
                 $this->elements_preset_s2();
                 break;
+            
+            case 's0-Lite':
+                $this->elements_preset_s0_lite();
+                break;
 
             default:
                 $this->elements_preset_default();
@@ -38,6 +42,30 @@ class Newsx_Magazine_Widget_Presets {
 
         // Get Post Template
         get_template_part( 'includes/widgets/loop/magazine-post', '', [ 'instance' => $this->instance ] );
+    }
+
+    public function elements_preset_s0_lite() {
+        // Featured Posts
+        if ( $this->has_featured_post() ) {
+            $this->instance['_el_locations'] = [
+                'over' => [
+                    //'categories',
+                    'title',
+                    'excerpt',
+                    //'meta',
+                ],
+            ];
+        
+        // Secondary Posts
+        } else {
+            $this->instance['_el_locations'] = [
+                'over' => [
+                    //'categories',
+                    'title',
+                    //'meta',
+                ],
+            ];
+        }
     }
 
     public function elements_preset_s1() {
