@@ -1565,7 +1565,7 @@ function newsx_get_dynamic_css() {
 					"box3 box4";
 			}
 			.newsx-magazine-layout .newsx-grid-over-media {
-				padding: 15px;
+				/*padding: 15px;*/
 			}
 			.newsx-magazine-layout .newsx-grid-title {
 				max-width: 95%;

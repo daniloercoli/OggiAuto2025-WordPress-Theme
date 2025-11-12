@@ -2541,7 +2541,12 @@ body.rtl .tipsy-e .tipsy-arrow {
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 20px;
+  /* padding: 20px;*/
+}
+
+.newsx-grid-over-media .newsx-metadata-container {
+  padding:10px 20px;
+  background: rgba(255, 255, 255, 0.30);
 }
 
 .newsx-grid-over-media .newsx-grid-categories {
@@ -2549,7 +2554,7 @@ body.rtl .tipsy-e .tipsy-arrow {
 }
 
 .newsx-grid-over-media .newsx-grid-title {
-  margin-top: 10px;
+  /*margin-top: 10px;*/
 }
 
 /* Grid Filters */

@@ -26,7 +26,9 @@ echo '<article class="'. esc_attr( $post_class ) .'">';
         // Over Media
         echo '<div class="newsx-grid-over-media newsx-full-stretch">';
             newsx_media_hover_link( $instance );
-            newsx_get_post_elements_by_location( $instance, 'over' );
+            echo '<div class="newsx-metadata-container">';
+                newsx_get_post_elements_by_location( $instance, 'over' );
+            echo '</div>';
         echo '</div>';
 
         // Post Format Icon
