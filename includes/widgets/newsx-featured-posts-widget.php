@@ -85,7 +85,7 @@ class Newsx_Featured_Posts extends Newsx_Widget {
         $posts = [];
         $date_query = [];
         $orderby = isset($instance['orderby']) ? $instance['orderby'] : 'date';
-        $posts_per_page = isset($instance['posts_per_page']) ? $instance['posts_per_page'] : 3;
+        $posts_per_page = isset($instance['posts_per_page']) ? $instance['posts_per_page'] : 5;
         $offset = isset($instance['offset']) ? $instance['offset'] : 0;
         $title_tag = isset($instance['title_tag']) ? $instance['title_tag'] : 'h6';
 
